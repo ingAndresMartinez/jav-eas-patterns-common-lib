@@ -87,4 +87,18 @@ public class QuotationWrapperDto {
         this.details = details;
     }
 
+    @Override
+    public String toString() {
+        return "QuotationWrapperDto{" +
+                "categoryId=" + categoryId +
+                ", personId=" + personId +
+                ", providerId=" + providerId +
+                ", quotationId=" + quotationId +
+                ", requestId=" + requestId +
+                ", amountTotal=" + amountTotal +
+                ", categoryDescription='" + categoryDescription + '\'' +
+                ", providerBusinessName='" + providerBusinessName + '\'' +
+                ", details=" + details +
+                '}';
+    }
 }
